@@ -1,7 +1,7 @@
 const { gql } = require('apollo-server-express');
 
 const typeDefs = gql`
-  ttype Query {
+  type Query {
     me: User
   }
   type Mutation {
